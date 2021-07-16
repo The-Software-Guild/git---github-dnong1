@@ -1,0 +1,19 @@
+This is the flowchart for my implementation of RockPaperScissors.java.
+
+At the start of the program, it will prompt the user to enter their desired number of rounds.
+It will check if the number of rounds entered is between 1 and 10, and if not:
+	If the number is not within the range, it will print a message telling the user to enter
+	a number within the range.
+	If the user enters a non-number, the program will tell the user to type in a number between
+	1 and 10.
+Then, the program will run the desired number of rounds to play, and will prompt the user to enter
+	"Rock", "Paper", or "Scissors" exactly as mentioned before with the first letter being upper case.
+	If any of the three choices are not mentioned, then the program will tell the user to enter the three choices above.
+The program will assign a value of 1 to Rock, 2 to Paper, 3 to Scissors.
+The program will then generate a random value between 1 and 3, simulating the RPS, to compare the player's choice to.
+The program will then compute who wins between the player and the "computer", or if the result is a tie.
+The program will then print all the results of the rounds that have been played.
+The program will then prompt the user whether or not they want to play another round.
+	If the user says yes, then another round will be played with all the statistics of the previous round erased.
+	If the user says no, the program will exit.
+	If the user doesn't type Yes or No, then the program will tell the user to type "Yes" or "No".
